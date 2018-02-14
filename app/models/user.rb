@@ -1,4 +1,8 @@
 class User < ApplicationRecord
+<<<<<<< HEAD
+=======
+  has_many :microposts, dependent: :destroy
+>>>>>>> user-micropost
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save   :downcase_email
   before_create :create_activation_digest
@@ -29,7 +33,10 @@ class User < ApplicationRecord
   end
 
   # Returns true if the given token matches the digest.
+<<<<<<< HEAD
   # Returns true if the given token matches the digest.
+=======
+>>>>>>> user-micropost
   def authenticated?(attribute, token)
     digest = send("#{attribute}_digest")
     return false if digest.nil?
@@ -66,6 +73,15 @@ class User < ApplicationRecord
     reset_sent_at < 2.hours.ago
   end
 
+<<<<<<< HEAD
+=======
+  # Defines a proto-feed.
+  # See "Following users" for the full implementation.
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
+
+>>>>>>> user-micropost
   private
 
   # Converts email to all lower-case.

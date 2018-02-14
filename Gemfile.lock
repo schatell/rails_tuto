@@ -1,10 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-<<<<<<< HEAD
-=======
     CFPropertyList (2.3.6)
->>>>>>> user-micropost
     actioncable (5.0.1)
       actionpack (= 5.0.1)
       nio4r (~> 1.2)
@@ -44,7 +41,7 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (7.1.4)
-    autoprefixer-rails (7.1.1.2)
+    autoprefixer-rails (7.2.5)
       execjs
     bcrypt (3.1.11)
     bootstrap-sass (3.3.7)
@@ -54,13 +51,10 @@ GEM
       will_paginate
     builder (3.2.3)
     byebug (9.0.0)
-<<<<<<< HEAD
-=======
     carrierwave (1.2.2)
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
->>>>>>> user-micropost
     coderay (1.1.1)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
@@ -70,21 +64,16 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    crass (1.0.3)
     debug_inspector (0.0.2)
-<<<<<<< HEAD
-    erubis (2.7.0)
-=======
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     excon (0.60.0)
->>>>>>> user-micropost
     execjs (2.7.0)
     faker (1.7.3)
       i18n (~> 0.5)
-    ffi (1.9.18)
-<<<<<<< HEAD
-=======
+    ffi (1.9.21)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
     fog (1.42.0)
@@ -238,9 +227,8 @@ GEM
     fog-xml (0.1.3)
       fog-core
       nokogiri (>= 1.5.11, < 2.0.0)
->>>>>>> user-micropost
     formatador (0.2.5)
-    globalid (0.4.0)
+    globalid (0.4.1)
       activesupport (>= 4.2.0)
     guard (2.13.0)
       formatador (>= 0.2.4)
@@ -255,15 +243,12 @@ GEM
     guard-minitest (2.4.4)
       guard-compat (~> 1.2)
       minitest (>= 3.0)
-<<<<<<< HEAD
-    i18n (0.8.1)
-=======
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (0.8.1)
+    i18n (0.9.3)
+      concurrent-ruby (~> 1.0)
     inflecto (0.0.2)
     ipaddress (0.8.3)
->>>>>>> user-micropost
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -271,42 +256,35 @@ GEM
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
-<<<<<<< HEAD
-=======
     json (2.1.0)
->>>>>>> user-micropost
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    loofah (2.0.3)
+    loofah (2.1.1)
+      crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.11)
-    mail (2.6.5)
-      mime-types (>= 1.16, < 4)
+    mail (2.7.0)
+      mini_mime (>= 0.1.1)
     method_source (0.8.2)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-<<<<<<< HEAD
-=======
     mini_magick (4.7.0)
->>>>>>> user-micropost
-    mini_portile2 (2.1.0)
-    minitest (5.10.1)
+    mini_mime (1.0.0)
+    mini_portile2 (2.3.0)
+    minitest (5.11.3)
     minitest-reporters (1.1.9)
       ansi
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    multi_json (1.12.1)
+    multi_json (1.13.1)
     nenv (0.3.0)
-<<<<<<< HEAD
-=======
     netrc (0.11.0)
->>>>>>> user-micropost
     nio4r (1.2.1)
-    nokogiri (1.7.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -316,7 +294,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     puma (3.4.0)
-    rack (2.0.1)
+    rack (2.0.4)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.1)
@@ -335,9 +313,9 @@ GEM
       actionpack (~> 5.x)
       actionview (~> 5.x)
       activesupport (~> 5.x)
-    rails-dom-testing (2.0.2)
-      activesupport (>= 4.2.0, < 6.0)
-      nokogiri (~> 1.6)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
     railties (5.0.1)
@@ -346,12 +324,10 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (12.0.0)
-    rb-fsevent (0.9.8)
-    rb-inotify (0.9.8)
-      ffi (>= 0.5.0)
-<<<<<<< HEAD
-=======
+    rake (12.3.0)
+    rb-fsevent (0.10.2)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
     rbovirt (0.1.5)
       nokogiri
       rest-client (> 1.7.0)
@@ -364,9 +340,12 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
->>>>>>> user-micropost
     ruby-progressbar (1.8.1)
-    sass (3.4.23)
+    sass (3.5.5)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
       sass (~> 3.1)
@@ -382,43 +361,34 @@ GEM
     sprockets (3.7.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    sprockets-rails (3.2.0)
+    sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.3.12)
-    thor (0.19.4)
+    thor (0.20.0)
     thread_safe (0.3.6)
-    tilt (2.0.7)
-<<<<<<< HEAD
-=======
+    tilt (2.0.8)
     trollop (2.1.2)
->>>>>>> user-micropost
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
-    turbolinks-source (5.0.3)
-    tzinfo (1.2.3)
+    turbolinks-source (5.1.0)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
-<<<<<<< HEAD
-=======
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
->>>>>>> user-micropost
     web-console (3.1.1)
       activemodel (>= 4.2)
       debug_inspector
       railties (>= 4.2)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.2)
+    websocket-extensions (0.1.3)
     will_paginate (3.1.5)
-<<<<<<< HEAD
-=======
     xml-simple (1.1.5)
->>>>>>> user-micropost
 
 PLATFORMS
   ruby
@@ -428,24 +398,16 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.7)
   bootstrap-will_paginate (= 1.0.0)
   byebug (= 9.0.0)
-<<<<<<< HEAD
-  coffee-rails (= 4.2.1)
-  faker (= 1.7.3)
-=======
   carrierwave (= 1.2.2)
   coffee-rails (= 4.2.1)
   faker (= 1.7.3)
   fog (= 1.42)
->>>>>>> user-micropost
   guard (= 2.13.0)
   guard-minitest (= 2.4.4)
   jbuilder (= 2.4.1)
   jquery-rails (= 4.1.1)
   listen (= 3.0.8)
-<<<<<<< HEAD
-=======
   mini_magick (= 4.7.0)
->>>>>>> user-micropost
   minitest-reporters (= 1.1.9)
   pg (= 0.18.4)
   puma (= 3.4.0)
@@ -462,8 +424,4 @@ DEPENDENCIES
   will_paginate (= 3.1.5)
 
 BUNDLED WITH
-<<<<<<< HEAD
-   1.16.0.pre.2
-=======
    1.16.1
->>>>>>> user-micropost

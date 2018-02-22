@@ -1,8 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   include SessionsHelper
-<<<<<<< HEAD
-=======
 
   private
 
@@ -14,5 +12,4 @@ class ApplicationController < ActionController::Base
         redirect_to login_url
       end
     end
->>>>>>> user-micropost
 end
